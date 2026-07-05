@@ -1,0 +1,27 @@
+bot/
+│
+├── index.js
+├── config.json
+├── package.json
+│
+├── commands/
+│   └── painel.js
+│
+├── events/
+│   ├── interactionCreate.js
+│   └── voiceStateUpdate.js{
+  "token": "SEU_TOKEN",
+  "clientId": "ID_DO_BOT",
+  "guildId": "ID_DO_SERVIDOR",
+  "categoriaCall": "ID_DA_CATEGORIA_DAS_CALLS"
+}{
+  "name": "fila-1v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
